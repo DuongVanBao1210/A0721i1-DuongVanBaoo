@@ -25,7 +25,7 @@ public class MyArrayList<E> {
         }
     }
     private boolean add(E element) {
-        if (elements.length==size){
+        if (elements.length == size){
             this.ensureCapacity(10);
         }
         size++;
